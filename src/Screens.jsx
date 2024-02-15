@@ -1,7 +1,20 @@
 import { useState } from "react";
 import confetti from "canvas-confetti";
+import * as icons from "react-icons/gi";
 import { Tile } from "./Tile";
-import { possibleTileContents } from "./App";
+
+export const possibleTileContents = [
+  icons.GiHearts,
+  icons.GiWaterDrop,
+  icons.GiDiceSixFacesFive,
+  icons.GiUmbrella,
+  icons.GiCube,
+  icons.GiEarthAfricaEurope,
+  icons.GiDragonfly,
+  icons.GiElephant,
+  icons.GiFlowerEmblem,
+  icons.GiSnowing,
+];
 
 export function StartScreen({ start }) {
   return (

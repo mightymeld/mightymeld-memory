@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { StartScreen, EndScreen, PlayScreen } from "./Screens";
 
-export const possibleTileContents = ["A", "B", "C", "D", "E", "F", "G", "H"];
-
 function App() {
   const [gameState, setGameState] = useState("start");
 

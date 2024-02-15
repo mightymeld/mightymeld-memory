@@ -11,10 +11,10 @@ export function Tile({ content, flip, state }) {
   }
 }
 
-function TileFront({ content }) {
+function TileFront({ content: Content }) {
   return (
     <div className="inline-block w-10 h-10 text-center bg-green-500">
-      {content}
+      <Content style={{ display: "inline-block" }} />
     </div>
   );
 }
@@ -30,10 +30,10 @@ function TileBack({ flip }) {
   );
 }
 
-function TileMatched({ content }) {
+function TileMatched({ content: Content }) {
   return (
     <div className="inline-block w-10 h-10 text-center bg-white text-gray-300">
-      {content}
+      <Content style={{ display: "inline-block" }} />
     </div>
   );
 }
