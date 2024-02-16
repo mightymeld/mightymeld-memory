@@ -9,11 +9,11 @@ export const possibleTileContents = [
   icons.GiDiceSixFacesFive,
   icons.GiUmbrella,
   icons.GiCube,
-  icons.GiEarthAfricaEurope,
+  icons.GiBeachBall,
   icons.GiDragonfly,
-  icons.GiElephant,
+  icons.GiHummingbird,
   icons.GiFlowerEmblem,
-  icons.GiSnowing,
+  icons.GiOpenBook,
 ];
 
 export function StartScreen({ start }) {
