@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { StartScreen, EndScreen, PlayScreen } from "./Screens";
+import { StartScreen, PlayScreen } from "./Screens";
 
 function App() {
   const [gameState, setGameState] = useState("start");
@@ -7,10 +7,8 @@ function App() {
   switch (gameState) {
     case "start":
       return <StartScreen start={() => setGameState("play")} />;
-    case "end":
-      return <EndScreen restart={() => setGameState("play")} />;
     case "play":
-      return <PlayScreen end={() => setGameState("end")} />;
+      return <PlayScreen end={() => setGameState("start")} />;
     default:
       throw new Error("Invalid game state " + gameState);
   }
