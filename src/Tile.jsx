@@ -1,39 +1,55 @@
-export function Tile({ content, flip, state }) {
+export function Tile({ content: Content, flip, state }) {
   switch (state) {
     case "start":
-      return <TileBack flip={flip} />;
+      return (
+        <Back
+          className="inline-block h-8 w-8 bg-blue-300 text-center"
+          flip={flip}
+        />
+      );
     case "flipped":
-      return <TileFront content={content} />;
+      return (
+        <Front className="inline-block h-8 w-8 bg-green-500">
+          <Content
+            style={{
+              display: "inline-block",
+              width: "100%",
+              height: "100%",
+              verticalAlign: "top",
+            }}
+          />
+        </Front>
+      );
     case "matched":
-      return <TileMatched content={content} />;
+      return (
+        <Matched className="inline-block h-8 w-8 text-gray-300">
+          <Content
+            style={{
+              display: "inline-block",
+              width: "100%",
+              height: "100%",
+              verticalAlign: "top",
+            }}
+          />
+        </Matched>
+      );
     default:
       throw new Error("Invalid state " + state);
   }
 }
 
-function TileFront({ content: Content }) {
+function Back({ className, flip }) {
   return (
-    <div className="inline-block w-10 h-10 text-center bg-green-500">
-      <Content style={{ display: "inline-block" }} />
-    </div>
-  );
-}
-
-function TileBack({ flip }) {
-  return (
-    <div
-      onClick={flip}
-      className="inline-block w-10 h-10 text-center bg-blue-500"
-    >
+    <div onClick={flip} className={className}>
       ?
     </div>
   );
 }
 
-function TileMatched({ content: Content }) {
-  return (
-    <div className="inline-block w-10 h-10 text-center bg-white text-gray-300">
-      <Content style={{ display: "inline-block" }} />
-    </div>
-  );
+function Front({ className, children }) {
+  return <div className={className}>{children}</div>;
+}
+
+function Matched({ className, children }) {
+  return <div className={className}>{children}</div>;
 }
