@@ -38,6 +38,14 @@ export function h6$html() {
   return <h6>Heading 6</h6>;
 }
 
+export function p$html() {
+  return <p>Paragraph</p>;
+}
+
+export function a$html() {
+  return <a href="https://example.com">Link</a>;
+}
+
 export function img$html() {
   return <img src="https://picsum.photos/200/300" />;
 }
