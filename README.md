@@ -16,4 +16,4 @@ This repository contains a partially built memory game. The game mechanics are a
 
 ## Setting up your favorite text editor
 
-You can choose “Open in Editor” in various places in MightyMeld to open files in your text editor. This project is set up to work with VS Code. If you want to use a different editor, you can change the `editor` field in `mightymeld.json` to a different editor. See the [editor documentation](https://docs.mightymeld.com/docs/setup/reference/configuration#editor) for more information.
+You can choose “Open in Editor” in various places in MightyMeld to open files in your text editor. This project is set up to open VS Code. If you want to use a different editor, you can change the `editor` field in `mightymeld.json` to a different editor. See the [editor documentation](https://docs.mightymeld.com/docs/setup/reference/configuration#editor) for more information.
