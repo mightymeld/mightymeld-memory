@@ -26,16 +26,6 @@ export function StartScreen({ start }) {
   );
 }
 
-export function EndScreen({ restart }) {
-  return (
-    <div>
-      <button onClick={restart} className="bg-gray-400 text-white p-3">
-        Play Again
-      </button>
-    </div>
-  );
-}
-
 export function PlayScreen({ end }) {
   const [tiles, setTiles] = useState(null);
 
