@@ -72,7 +72,9 @@ export function PlayScreen({ end }) {
       let newState = "start";
 
       if (alreadyFlippedTile.content === justFlippedTile.content) {
-        confetti();
+        confetti({
+          ticks: 100,
+        });
         newState = "matched";
       }
 
