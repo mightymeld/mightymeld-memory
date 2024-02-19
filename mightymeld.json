@@ -2,7 +2,7 @@
   "run": "npm run dev",
   "run_prettier": true,
   "include": ["src"],
-  "web_server_url": "http://localhost:5173",
+  "web_server_url": "http://localhost:5555",
   "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN",
   "tailwind": true,
   "prefab_dir": "src/prefabs"
