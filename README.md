@@ -40,4 +40,6 @@ _All colors used in the design are standard Tailwind CSS colors._
 	<img src="docs/play.png" width="400" height="465" />
 </kbd>
 
-![App inside MightyMeld studio](docs/mightymeld.png)
+<kbd>
+	<img src="docs/mightymeld.png">
+</kbd>
