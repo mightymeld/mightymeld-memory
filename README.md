@@ -32,8 +32,8 @@ Here are full size renders of the app screens.
 
 <kbd>
 	<img src="docs/start.png" width="400" height="465" />
-</kdb>
+</kbd>
 
 <kbd>
 	<img src="docs/play.png" width="400" height="465" />
-</kdb>
+</kbd>
