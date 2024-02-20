@@ -28,6 +28,6 @@ This animation shows how the game should look in it’s final form. The game mec
 
 ### Here are full size renders of the app screens
 
-<img src="docs/start.png" width="400" height="465">
+<img src="docs/start.png" width="400" height="465" style="border: 1px solid gray">
 
-<img src="docs/play.png" width="400" height="465">
+<img src="docs/play.png" width="400" height="465" style="border: 1px solid gray">
