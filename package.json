@@ -16,7 +16,7 @@
     "react-icons": "^5.0.1"
   },
   "devDependencies": {
-    "@mightymeld/runtime": "^0.1.47",
+    "@mightymeld/runtime": "^0.1.48",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",
