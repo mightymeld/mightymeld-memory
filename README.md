@@ -24,6 +24,8 @@ You can choose “Open in Editor” in various places in MightyMeld to open file
 
 This animation shows how the game should look in it’s final form. The game mechanics are already implemented but the UI needs styling and structure.
 
+Once loaded in MightyMeld, you should set your frame(s) to 400px wide (mobile size). You only need to work on that size for the speed run challenge.
+
 ![Animation of completed game](docs/solution.gif)
 
 ### Here are full size renders of the app screens
