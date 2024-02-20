@@ -114,7 +114,7 @@ export function PlayScreen({ end }) {
           <Tile key={i} flip={() => flip(i)} {...tile} />
         ))}
       </div>
-      <span>{tryCount}</span>
+      {tryCount}
     </>
   );
 }
