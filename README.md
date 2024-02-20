@@ -31,9 +31,9 @@ Once loaded in MightyMeld, you should set your frame(s) to 400px wide (mobile si
 Here are full size renders of the app screens.
 
 <kbd>
-	<img src="docs/start.png" width="400" height="465">
+	<img src="docs/start.png" width="400" height="465" />
 </kdb>
 
 <kbd>
-	<img src="docs/play.png" width="400" height="465">
+	<img src="docs/play.png" width="400" height="465" />
 </kdb>
