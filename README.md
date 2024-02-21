@@ -10,11 +10,13 @@ Welcome to the hackathon! Here’s how to get started.
 
 2. Change into the directory of the cloned repository: `cd mightymeld-memory`.
 
-3. Make sure you have an account at [mightymeld.app](https://mightymeld.app).
+3. Install the dependencies: `npm install`.
 
-4. If you do not prefer using VS Code, set up your favorite text editor (see below).
+4. Make sure you have an account at [mightymeld.app](https://mightymeld.app).
 
-5. Start MightyMeld: `npx mightymeld`.
+5. If you do not prefer using VS Code, set up your favorite text editor (see below).
+
+6. Start MightyMeld: `npx mightymeld`.
 
 ### Setting up your favorite text editor
 
